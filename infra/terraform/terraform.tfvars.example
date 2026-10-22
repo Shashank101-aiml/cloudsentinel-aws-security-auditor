@@ -1,0 +1,12 @@
+# Example Terraform Variables
+# Copy to terraform.tfvars and customize before running terraform apply
+
+role_name             = "CloudSentinelReadOnlyAuditorRole"
+trusted_principal_arn = "arn:aws:iam::123456789012:root"
+external_id           = "CloudSentinelAuditSessionToken"
+
+tags = {
+  Project     = "CloudSentinel"
+  Environment = "Audit"
+  ManagedBy   = "Terraform"
+}
