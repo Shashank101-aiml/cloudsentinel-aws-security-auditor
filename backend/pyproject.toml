@@ -1,0 +1,19 @@
+[project]
+name = "cloudsentinel-backend"
+version = "1.0.0"
+description = "AWS Cloud Security & Compliance Auditor Backend"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
