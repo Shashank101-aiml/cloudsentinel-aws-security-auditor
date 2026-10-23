@@ -7,7 +7,7 @@
 [![React](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8.svg)](https://tailwindcss.com/)
 
-> **Portfolio-Grade Cloud Security Auditing Platform**: Connects to AWS via read-only credentials or assumed IAM roles to discover resources, evaluate deterministic security rules, calculate actionable risk scores, and generate multi-format remediation reports.
+> Cloud Security Auditing Platform**: Connects to AWS via read-only credentials or assumed IAM roles to discover resources, evaluate deterministic security rules, calculate actionable risk scores, and generate multi-format remediation reports.
 
 ---
 
